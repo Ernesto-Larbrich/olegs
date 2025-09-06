@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crownstar International College </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <!-- NAV -->
+  <nav>
+    <div class="nav-inner">
+      <a class="brand" href="index.html" aria-label="Crownstar home">
+    
+            <img src="/images/ciclogo.PNG" alt="Crownstar Logo" class="Logo">
+        <span class="brand-title">
+          <span class="top">CROWNSTAR</span>
+          <span class="sub">INTERNATIONAL COLLEGE</span>
+        </span>
+      </a>
+
+      <div class="search-container">
+        <button class="search-icon-btn" onclick="toggleSearch()">
+          <i class="fas fa-search"></i>
+        </button>
+        <input
+          type="text"
+          id="searchInput"
+          class="search-input"
+          placeholder="Search..."
+          onkeydown="handleSearch(event)"
+        />
+      </div>
+    
+      <button id="menu-btn" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-links" id="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+
+        <div class="dropdown">
+          <button class="nav-drop">Academics <i class="fa-solid fa-caret-down" aria-hidden="true"></i></button>
+          <div class="drop-panel">
+            <a href="academics.html">Overview & Curriculum</a>
+            <a href="academics.html#departments">Departments</a>
+            <a href="academics.html#calendar">Academic Calendar</a>
+          </div>
+        </div>
+
+        <a href="admissions.html">Admissions</a>
+        <a href="students.html">Students</a>
+        <a href="parents.html">Parents</a>
+        <a href="staff.html">Staff</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </nav>
+  
+  <!-- HERO -->
+  <section class="hero" role="banner" aria-label="Welcome banner">
+    <div class="hero-inner">
+      <h1>Welcome to Crownstar<br>International College</h1>
+      <p>Step into a world of limitless possibilities! Crownstar International College blends academic excellence, innovation, and community spirit to create an inforgetable jouney of learning and growth.</p>
+      <div class="cta-row">
+        <a class="btn btn-gold" href="admissions.html">Apply Now</a>
+        <a class="btn btn-ghost" href="academics.html">Explore Academics</a>
+      </div>
+    </div>
+  </section>
+  
+    <!-- Scholarship region -->
+  <section>
+    <article>
+   <div class="cardd">
+    <div class="row"> 
+    <p>CROWNSTAR COLLEGE</p>
+        <span class="text1">SCHOLARSHIP</span>
+        <span class="text2">Region</span>
+        <p><a href="#email">How to Apply >>>></a></p>
+    </div>
+</div>
+    </article>
+  </section>
+
+<section>
+  <img src="images/99e9a9b4-f37a-4a2f-906e-620546c804d5.jpeg" class="img" srcset="">
+</section>
+
+<!-- FEATURES -->
+<section class="section" aria-label="Key sections">
+  <div class="features">
+    <!-- Academics -->
+    <article class="card">
+      <div class="card-head">
+        <div class="icon"><i class="fa-solid fa-book-open"></i></div>
+        <h3>Academics</h3>
+      </div>
+      <p>Explore our rich curriculum and specialized departments designed to spark discovery and mastery.</p>
+      <a class="more" href="academics.html">Learn more →</a>
+      <div> <img src="images/(1) Instagram_files/361569547_715198477081128_2335975209064846927_n.jpg" class="card">
+    </div>
+      </article>
+
+<article class="card">
+  <h2>Highlights</h2>
+  <div class="card-container" id="highlights">
+    <div class="card"><img src="images/2023-64768f2f3bb102.37225511.jpg" class="image" alt=""><p>Equipped with state-of-the-art laboratories and libraries.</p></div>
+    <div class="card"><img src="images/IMG_6360.jpeg" class="image" alt=""><p>Join students and faculty from diverse cultural backgrounds.</p></div>
+    <div class="card"> <img src="images/2023-64768f4e7e2bc8.51218633.jpg" class="image"></div><p>Cutting-edge programs and interactive classrooms.</p></div>
+  </div>
+</article>
+
+    <!-- Admissions -->
+    <article class="card">
+      <div class="card-head">
+        <div class="icon"><i class="fa-solid fa-user-graduate"></i></div>
+        <h3>Admissions</h3>
+      </div>
+      <p>Join Crownstar—see requirements, fees, and steps to apply for the next intake.</p>
+      <a class="more" href="admissions.html">Start your journey →</a>
+    </article>
+
+    <!-- News -->
+    <article class="card">
+      <div class="card-head">
+        <div class="icon"><i class="fa-solid fa-bullhorn"></i></div>
+        <h3>News & Events</h3>
+      </div>
+      <p>Stay updated with announcements, term dates, and activities happening across our community.</p>
+      <a class="more" href="about.html#news">See updates →</a>
+    </article>
+  </div>
+</section>
+
+<!-- Highlights -->
+<section class="highlights">
+  <h2>Highlights</h2>
+  <div class="card-container" id="highlights">
+    <div class="card"><h3>Modern Facilities</h3><p>Equipped with state-of-the-art laboratories and libraries.</p></div>
+    <div class="card"><h3>Global Community</h3><p>Join students and faculty from diverse cultural backgrounds.</p></div>
+    <div class="card"><h3>Innovative Learning</h3><p>Cutting-edge programs and interactive classrooms.</p></div>
+  </div>
+</section>
+
+<!-- News and Events -->
+<section class="news-events">
+  <h2>News & Events</h2>
+  <div class="card-container" id="newsScroll">
+    <div class="card"><h3>Orientation 2025</h3><p>New students welcomed with a week of fun and learning.</p></div>
+    <div class="card"><h3>Science Fair</h3><p>Showcasing brilliant innovations from our students.</p></div>
+    <div class="card"><h3>Sports Festival</h3><p>Annual inter-school sports event with thrilling competitions.</p></div>
+  </div>
+  </section>
+
+
+  <!--footer--->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-section contact">
+        <h3>Contact</h3>
+        <p>Email: info@example.com</p>
+        <p>Phone: +123 456 7890</p>
+        <p>Address: 123 Main Street, City, Country</p>
+      </div>
+  
+      <div class="footer-section programmes">
+        <h3>Programmes</h3>
+        <ul>
+          <li><a href="#">Youth Empowerment</a></li>
+          <li><a href="#">Community Outreach</a></li>
+          <li><a href="#">Skills Development</a></li>
+          <li><a href="#">Scholarships</a></li>
+        </ul>
+      </div>
+  
+      <div class="social">
+        <h3 class="sm">Follow Us</h3>
+        <a href="https://wa.me/+233559906053" target="_blank" aria-label="WhatsApp">
+          <i class="fab fa-whatsapp"></i></a>        
+        <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+        <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.tiktok.com/@larbrich.olegs.obi" target="_blank"><i class="fab fa-tiktok"></i></a>
+        <a href="https://x.com/@ObiOlegs" target="_blank"><i class="fab fa-x-twitter"></i></a>
+        <a href="https://www.instagram.com/obinalegs/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+  
+    <div class="footer-bottom">
+      <p>&copy; 2025 Crownstar International College. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
